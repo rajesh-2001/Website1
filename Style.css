@@ -3,11 +3,14 @@ body{
 }
 /* Nav bar*/
 
-
+.header{
+    background: rgb(255, 248, 243);
+}
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin:0px 150px;
 }
 
 /*Website Title */
@@ -58,4 +61,21 @@ ul li a{
     background-color: #fd6f0ae3;
     color:white;
     cursor: pointer;
+}
+/*Navbar Menu End*/
+
+/*Banner*/
+.banner{
+    display: flex;
+    margin: 0 150px;
+}
+.banner_gretting{
+
+}
+.banner_title{
+
+}
+.profile_pic{
+    width: 200px;
+    height: 300px;
 }
