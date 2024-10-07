@@ -67,15 +67,34 @@ ul li a{
 /*Banner*/
 .banner{
     display: flex;
-    margin: 0 150px;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.banner_part1{
+    width: 580px;
+    margin-left: 150px;
 }
 .banner_gretting{
-
+    color: rgb(71, 71, 71);
+    font-size: 45px;
+    font-weight: 600;
+    text-align: left;
 }
 .banner_title{
-
+    color: rgb(24, 24, 24);
+    font-size: 60px;
+    font-weight: 600;
+    text-align: left;
+}
+.banner_description{
+    height: 70px;
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
 }
 .profile_pic{
-    width: 200px;
-    height: 300px;
+    width: 484px;
+    height: 576px;
 }
