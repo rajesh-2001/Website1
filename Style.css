@@ -4,7 +4,11 @@ body{
 /* Nav bar*/
 
 .header{
-    background: rgb(255, 248, 243);
+    background: rgba(255, 248, 243, 0.842);
+    background: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 50%;
 }
 nav{
     display: flex;
@@ -95,6 +99,11 @@ ul li a{
     text-align: left;
 }
 .profile_pic{
-    width: 484px;
-    height: 576px;
+    width: 400px;
+    height: 476px;
+    margin-right: 50px;
+    border-radius: 7px;
 }
+
+/*Main Section Style*/
+
