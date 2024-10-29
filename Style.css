@@ -240,7 +240,7 @@ ul li a{
 /*Resume Section*/
 .resume_section{
     margin: 80px 10%;
-    margin-top: 70px;
+    margin-top: 150px;
     width: 80%;
 }
 .resume_title{
@@ -253,9 +253,9 @@ ul li a{
 .resume_table{
     display: flex;
     justify-content: space-between;
+    margin-top: -30px;
 }
 .resume_column{
-    border:1px solid green;
     width:46%;
 }
 .column_title{
@@ -265,9 +265,7 @@ ul li a{
     font-weight: 700;
     line-height: 41px;
     text-align: left;
-}
-.row{
-    margin-top: -20px;
+    margin-bottom: 30px;
 }
 .row_title{
     color: rgb(71, 71, 71);
@@ -277,5 +275,88 @@ ul li a{
     line-height: 41px;
     text-align: left;
 }
-
+.institution{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: -20px;
+}
+.qulaification_description{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+/*Footer*/
+.foot{
+    background: rgb(255, 248, 243);
+    border-radius: 5px;
+}
+.footer_box{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+.foot_column{
+    width: 49%;
+}
+.connect_detail{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-top: -15px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    padding-right: 18px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.input_box{
+    font-size: 15px;
+    width: 60%;
+    height: 30px;
+    border: .5px solid gray;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    padding:5px;
+}
+.message_box{
+    width: 60%;
+    height: 150px;
+    font-size: 15px;
+    border: .5px solid gray;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding:5px;
+}
+.form_button{
+    width: 100px;
+    border:1px solid #fd6f0ae3;
+    border-radius: 5px;
+    padding: 5px 0px;
+    color: rgb(255, 255, 255);
+    background-color: #fd6f0ae3;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
 
