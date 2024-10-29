@@ -188,13 +188,35 @@ ul li a{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-top: 35px;
+    margin-top: 45px;
 }
 .cart1,.cart2,.cart3,.cart4{
     width:20%;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     background: rgba(255, 255, 255, 0.301);
+}
+.cart1:hover{
+    background-color: rgba(173, 216, 230, 0.884);
+    transform: scale(1.07,1.07);
+}
+.cart2:hover{
+    background-color: rgba(173, 216, 230, 0.884);
+    transform: scale(1.07,1.07);
+}
+.cart3:hover{
+    background-color: rgba(173, 216, 230, 0.884);
+    transform: scale(1.07,1.07);
+}
+.cart4:hover{
+    background-color: rgba(173, 216, 230, 0.884);
+    transform: scale(1.07,1.07);
+}
+.cart_icon{
+    max-width: 50px;
+    max-height: 37px;
+    margin:20px;
+    border-radius: 7px;
 }
 .cart_title{
     color: rgb(24, 24, 24);
@@ -214,3 +236,46 @@ ul li a{
     margin:15px 20px;
     margin-bottom: 30px;
 }
+
+/*Resume Section*/
+.resume_section{
+    margin: 80px 10%;
+    margin-top: 70px;
+    width: 80%;
+}
+.resume_title{
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.resume_table{
+    display: flex;
+    justify-content: space-between;
+}
+.resume_column{
+    border:1px solid green;
+    width:46%;
+}
+.column_title{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    text-align: left;
+}
+.row{
+    margin-top: -20px;
+}
+.row_title{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 41px;
+    text-align: left;
+}
+
+
